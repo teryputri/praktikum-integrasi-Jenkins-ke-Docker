@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-  ubah 'teryapa/simple-app' dengan nama kamu dan repo proyek kamu
+  ubah 'teryapa/praktikum-integrasi-Jenkins-ke-Docker' dengan nama kamu dan repo proyek kamu
     IMAGE_NAME = 'teryapa/simple-app'
   ubah 'dockerhub-credentials' dengan credential yang sudah kamu buat 
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
@@ -35,3 +35,4 @@ pipeline {
   }
 
 }
+
